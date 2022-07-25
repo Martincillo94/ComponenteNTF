@@ -8,6 +8,121 @@
 body {
   font-family: "Outfit", sans-serif;
   font-size: 18px;
+  background-color: hsl(217deg, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .card {
+  width: 329px;
+  height: 544px;
+  background-color: hsl(216deg, 50%, 16%);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+body main .card .firstSection {
+  background-color: hsl(178deg, 100%, 50%);
+  background-image: url(../imgs/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 55%;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  overflow: hidden;
+}
+body main .card .firstSection:hover img {
+  opacity: 0.5;
+  cursor: pointer;
+}
+body main .card .firstSection img {
+  width: 100%;
+  display: block;
+}
+body main .card .secondSection {
+  height: 45%;
+  padding-top: 1.5rem;
+}
+body main .card .secondSection h1 {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: hsl(0deg, 0%, 100%);
+  margin-bottom: 1rem;
+}
+body main .card .secondSection h1:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+body main .card .secondSection p {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: hsl(215deg, 51%, 70%);
+  margin-bottom: 0.8rem;
+  line-height: 1.8rem;
+}
+body main .card .secondSection .details {
+  width: 100%;
+  display: flex;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid hsl(215deg, 32%, 27%);
+}
+body main .card .secondSection .details .detail-left {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 500;
+  font-size: 0.8em;
+}
+body main .card .secondSection .details .detail-left::before {
+  content: url(../imgs/icon-ethereum.svg);
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+body main .card .secondSection .details .detail-right {
+  margin-left: auto;
+  color: hsl(215deg, 51%, 70%);
+  font-weight: 500;
+  font-size: 0.8em;
+}
+body main .card .secondSection .details .detail-right::before {
+  content: url(../imgs/icon-clock.svg);
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+body main .card .secondSection .avatar {
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+body main .card .secondSection .avatar img {
+  margin-top: 0.5rem;
+  border: 1px solid rgb(238, 238, 238);
+  width: 32px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+body main .card .secondSection .avatar .author {
+  font-size: 1rem;
+  color: hsl(215deg, 51%, 70%);
+  margin-left: 1rem;
+}
+body main .card .secondSection .avatar .author .author-name {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 300;
+  cursor: pointer;
+}
+body main .card .secondSection .avatar .author .author-name:hover {
+  color: hsl(178deg, 100%, 50%);
 }
 
 /*# sourceMappingURL=estilos.css.map */

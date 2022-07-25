@@ -33,5 +33,3 @@ The designs were created to the following widths:
 - Weights: 300, 400, 600
 
 
-
-medidas mobile 329 x 544
